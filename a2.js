@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
               let option = document.createElement("option")
               option.innerText = movie.title
               select.appendChild(option)
+                // console.log(title);
+                
           })
       }catch(error){
           console.log(error)
